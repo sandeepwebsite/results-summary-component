@@ -8,7 +8,11 @@
   body{
     font-family: 'Hanken Grotesk', sans-serif;
   }
-  .innertext{
+  h1{
+    font-size: 45px;
+    font-weight: 800;
+  }
+  .innertext, text{
     color: rgb(202, 202, 202);
     font-size: 18px;
   }
@@ -74,11 +78,16 @@
     float: right;
     position: relative;
     right: 10px;
+    color: grey;
+    font-weight: 500;
+  }
+  #visual{
     color: black;
+    font-weight: 700;
   }
   .container-col button{
     padding: 10px;
-    background-color: gray;
+    background-color: rgb(65, 70, 85);
     border: none;
     cursor: pointer;
     width: 100%;
